@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinacion de colores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    
+    <h2 id="texto">Eliga el color para ver sus posibles combinaciones</h2>
+    <div class="color" id="color"></div>
+    <select name="colores" class="selector" id="selector" onchange="color()">
+        <optgroup label="colores" selected></optgroup>
+        <option value="color" selected disabled>color</option>
+        <option value="blanco" >blanco</option>
+        <option value="rojo" >rojo</option>
+        <option value="azul">azul</option>
+        <option value="amarillo">amarillo</option>
+        
+    </select>
+
+    <div class="cajas" id="cajas">
+    <div class="cajitas" id="cajitas">
+        <div class="caja1" id="caja1"></div>
+        <b>+</b>
+        <div class="caja2"></div>
+        <b>=</b>
+        <div class="caja3" id="resultado1"></div>
+    </div>
+
+    <div class="cajitas2">
+        <div class="caja1" id="caja2"></div>
+        <b>+</b>
+        <div class="caja2"></div>
+        <b>=</b>
+        <div class="caja3" id="resultado2"></div>
+    </div>
+
+    <div class="cajitas3">
+        <div class="caja1" id="caja3"></div>
+        <b>+</b>
+        <div class="caja2"></div>
+        <b>=</b>
+        <div class="caja3" id="resultado3"></div>
+    </div>
+    </div>
+
+  
+
+    <script src="app.js"></script>
+
+</body>
+</html>

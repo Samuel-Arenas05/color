@@ -1,0 +1,123 @@
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    width: 300px;
+
+}
+
+.color{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.selector{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.cajas{
+    display: none;
+}
+
+.cajitas{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.cajitas b{
+    position: relative;
+    bottom: 40px;
+}
+
+
+.cajitas .caja1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.cajitas .caja2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.cajitas .caja3{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.cajitas2{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.cajitas2 b{
+    position: relative;
+    bottom: 40px;
+}
+
+.cajitas2 .caja1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.cajitas2 .caja2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.cajitas2 .caja3{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.cajitas3{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.cajitas3 b{
+    position: relative;
+    bottom: 40px;
+}
+
+.cajitas3 .caja1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.cajitas3 .caja2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.cajitas3 .caja3{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 245, 140);
+}
